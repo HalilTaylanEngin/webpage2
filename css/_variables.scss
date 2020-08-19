@@ -1,0 +1,41 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+
+/****     VARİABLES   ****/
+$primary-font: 'Open Sans Condensed', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$primary-color:rgba(156, 39, 176,1.0);
+$primary-hover:#ff3f34;
+$dark-color:#353b48;
+$darker-color:#000;
+$white-color:#f5f6fa;
+$light-color:#dcdde1;
+$blue-color:#487eb0;
+$yellow-color:#fbc531;
+
+
+
+/****  UTİLİTİES  ****/
+
+.bg {
+  &-dark {
+    background-color: $darker-color;
+  }
+
+  &-light {
+    background-color: $light-color;
+  }
+}
+
+.ml{
+    &-1 {
+      margin-left: 1rem;
+    }
+    &-2 {
+      margin-left: 2rem;
+    }
+}

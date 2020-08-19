@@ -1,0 +1,71 @@
+
+
+/****    GENERALS    ****/
+
+*,
+*::after,
+*::before{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: $secondary-font;
+  color: $white-color;
+  background-color: $light-color;
+}
+
+h1{
+  padding-bottom: 3rem;
+  text-align: center;
+  font-family: $primary-font;
+  color: $primary-color;
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: $white-color;
+}
+.contanier{
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+
+.btn {
+      background-color: $white-color;
+      color: $primary-color;
+      font-family: $primary-font;
+      font-size: 1.6rem;
+      padding: 0.3rem 2rem;
+      transition: .5s ;
+
+      &:hover{
+        background-color: $primary-color;
+        color: $white-color;
+      }
+      &-primary {
+        background-color: $primary-color;
+        color: $white-color;
+        font-family: $primary-font;
+        font-size: 1.6rem;
+        padding: 0.3rem 2rem;
+        transition: .5s ;
+
+      &:hover{
+        background-color: $white-color;
+        color: $primary-color;
+      }
+    }
+}
